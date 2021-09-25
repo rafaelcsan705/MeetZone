@@ -11,6 +11,8 @@
 		88FE81E226FF77D80009C7EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FE81E126FF77D80009C7EB /* ContentView.swift */; };
 		88FE81E426FF77E40009C7EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88FE81E326FF77E40009C7EB /* Assets.xcassets */; };
 		88FE81E726FF77E40009C7EB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88FE81E626FF77E40009C7EB /* Preview Assets.xcassets */; };
+		88FE81EF26FF7CBB0009C7EB /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FE81EE26FF7CBB0009C7EB /* Card.swift */; };
+		88FE81F226FF80E20009C7EB /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FE81F126FF80E20009C7EB /* View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		88FE81E126FF77D80009C7EB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		88FE81E326FF77E40009C7EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88FE81E626FF77E40009C7EB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		88FE81EE26FF7CBB0009C7EB /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		88FE81F126FF80E20009C7EB /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,8 @@
 		88FE81DE26FF77D80009C7EB /* MeetZone */ = {
 			isa = PBXGroup;
 			children = (
+				88FE81F026FF80D40009C7EB /* Extensions */,
+				88FE81ED26FF7CA60009C7EB /* CustomViews */,
 				88FE81DF26FF77D80009C7EB /* MeetZoneApp.swift */,
 				88FE81E126FF77D80009C7EB /* ContentView.swift */,
 				88FE81E326FF77E40009C7EB /* Assets.xcassets */,
@@ -65,6 +71,22 @@
 				88FE81E626FF77E40009C7EB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		88FE81ED26FF7CA60009C7EB /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				88FE81EE26FF7CBB0009C7EB /* Card.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		88FE81F026FF80D40009C7EB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				88FE81F126FF80E20009C7EB /* View.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +159,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88FE81F226FF80E20009C7EB /* View.swift in Sources */,
 				88FE81E226FF77D80009C7EB /* ContentView.swift in Sources */,
+				88FE81EF26FF7CBB0009C7EB /* Card.swift in Sources */,
 				88FE81E026FF77D80009C7EB /* MeetZoneApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
